@@ -1,4 +1,4 @@
-#container {max-width: 1200px; min-width: 840px; margin: auto auto; padding:0;}
+#container {max-width: 1050px; min-width: 825px;}
 
 #topbar {background-color: azure; height: 1.6em; padding-top: 0.2em;}
 #topguide {float: left;}
@@ -9,24 +9,24 @@
 #adflash0 {float: left; width: 700px; height: 70px;}
 #headerRightContent {margin: auto auto;}
 #headerRightContent td {text-align: center;}
-#headerWelcome {font-size: 18px; font-weight: bold; font-family: "华文楷体"; padding-bottom: 0.2em; border-bottom: 1px wheat solid;}
-#headerLinkContent {}
+#headerWelcome {font-size: 16.5px; font-weight: bold; font-family: "华文楷体"; padding-bottom: 0.2em; border-bottom: 1px wheat solid;}
+#headerLinkContent {font-size: 12px;}
 #loginHistoryNum {padding: 0 0.2em; color: gold;}
 .wusetu_logo_text {font-weight: bold;}
 
 #bigboard {clear: both; padding-bottom: 0.2em;}
 #bigboard_list li {padding-left: 0.2em;}
-.line_odd {background-color: #CFC; height: 1.8em;}
+.line_odd {background-color: azure; height: 1.8em;}
 .line_even {background-color: white; height: 1.8em;}
 .bigboard_item {padding-left: 0; padding-right: 2px;}
 .connector {padding-left: 2px; padding-right: 0;}
 
-#mbody {float: left; width: 84%; min-width: 698px; margin: 0 0 0 0; border-right: 1px solid white;}
+#mbody {float: left; width: 99%; min-width: 698px; margin: 0 0 0 0; border-right: 1px solid white;}
 #mbodyContent {}
 
 #ht_bls {width: 100%;}
 #ht_bls th,#ht_bls td {width: 50%;}
-#htLabel, #blsLabel {width: 98%;}
+#htLabel, #blsLabel {width: 94%;}
 #blue:hover {color: #0617FA;}
 #orange:hover {color: orangered;}
 
@@ -46,7 +46,7 @@
 #adflash1 {width: 468px; margin: 0 auto;}
 
 #quotation {width: 100%;}
-#qtLabel {width: 99%;}
+#qtLabel {width: 97%;}
 #quotation .subcontent {width: 99%;}
 #announce {}
 #announce li {padding: 0.1em 0 0.1em 2em;}
@@ -62,7 +62,7 @@
 #bbsers a:hover {color: white; background-color: #060;}
 
 #top10s {width: 100%;}
-#ttLabel, #btLabel {width: 98%;}
+#ttLabel, #btLabel {width: 94%;}
 #top10s .subcontent {border-bottom: none;}
 
 #wusetu_top10 {width: 98%;}
@@ -99,7 +99,8 @@
 .list_style_none {list-style-type: none; padding: 0; margin: 0;}
 .overflow_hidden li, .overflow_hidden td {overflow: hidden; height: 1.5em;}
 .separator {padding-left: 2px; padding-right: -1px; color: #030;}
-.subtitle {float: left; text-align: left; background-color: #CFC; border-right: 1px #060 solid; border-bottom: 1px #060 solid;}
+.subtitle {float: left; text-align: left; border-bottom: 1px #060 solid; border-left: 6px #060 solid;}
+.subtitle a, .subtitle span {padding-right: 10px; border-right: 3px gold solid;}
 .subcontent {padding-left: 0; /*border-right: 1px #CCCCCC solid; border-bottom: 1px #CCCCCC solid;*/}
 .headline {font-size: 13px; font-weight: bold; letter-spacing: 1px; text-decoration: none; color: #060; line-height: 22px; padding-left: 6px;}
 .blessStar {margin-right: 0.4em; color: orangered;}
@@ -111,5 +112,5 @@
 .noted {color: red;}
 td {vertical-align: top;}
 a {text-decoration: none;}
-body,div,table,td,ul,ol,a {font: 12px/18px "Lucida Sans Unicode",Arial,Verdana,sans-serif; color: black; text-align: left;}
+body,div,table,td,ul,ol,a {font: 13px/20px "Lucida Sans Unicode",Arial,Verdana,sans-serif; color: black; text-align: left;}
 body,div,table,th,td,span {margin: 0; padding: 0;}

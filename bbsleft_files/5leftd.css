@@ -1,0 +1,8 @@
+*{ font-family:Verdana, Arial, Helvetica, sans-serif;}
+A {color: #FFFFFF} 
+A:LINK  {text-decoration: none;}
+A:VISITED {text-decoration: none;}
+BODY {FONT-SIZE: 14px; BACKGROUND-COLOR: #339933;
+}
+TABLE,TH,TD,P {FONT-SIZE: 14px ; color: #EEF0EA}
+INPUT,TEXTAREA,SELECT {FONT-SIZE: 12px}
