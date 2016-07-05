@@ -1,0 +1,24 @@
+#container {width: 135px;}
+#wusetuLogo {text-align: center;}
+#wusetuLogoImg {height: 55px; width: 120px; display: inline;}
+#idInfo {margin: 4px 0 0 4px; padding: 0;}
+#logout {text-align: center; margin-top: 5px;}
+#logout a {font-weight: bold;}
+
+.firstLevelMenu {padding-left: 0;}
+.firstLevelMenu a {border-bottom: 1px #eee dotted;}
+.firstLevelMenu li {}
+.firstLevelMenu>li>a, .firstLevelMenu>li>form {letter-spacing: 2px; padding-left: 20px; width: 110px; border-left: 5px yellowgreen solid;}
+.firstLevelMenu>li>a:hover {color: wheat; border-left: 5px yellow solid; background-color: forestgreen;}
+.secondLevelMenu {padding-left: 0; display: none;}
+.secondLevelMenu > li > a {border-left: 5px #090 solid;}
+.inner_link a {padding-left: 23px; width: 107px; background-color: #070; font-size: 12px;}
+.inner_link a:hover {background: #050 url("images/nav_arrow_orange.gif") no-repeat scroll 8px;}
+.list_style_none {list-style-type: none;}
+.underline_text {text-decoration: underline;}
+.expander {padding-left: 4px; color: white;}
+
+td {vertical-align: top;}
+a {text-decoration: none; display: inline-block;}
+body,div,table,td,ul,ol,a {font: 13px/19px "宋体",Arial,Verdana,sans-serif; color: white; background-color: #393; text-align: left;}
+body,div,table,tr,th,td,span {margin: 0; padding: 0;}
