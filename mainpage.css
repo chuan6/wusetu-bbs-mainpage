@@ -1,4 +1,4 @@
-#container {max-width: 1000px; min-width: 825px;}
+#container {width: 70%; max-width: 1000px; min-width: 825px;}
 
 #topbar {background-color: #080; height: 20px; padding: 0 0 0 0.4em; border-bottom: 1px gold solid;}
 #topguide a {color: white;}
@@ -88,7 +88,7 @@
 #bottomAds img {border: none;}
 
 /*#sidebarContent {float: left; margin-left: 0;}*/
-#sidebar {float: left; position: relative; margin: 0 0 0 1em; width: 14%;}
+#sidebar {float: right; position: relative; margin: 0 0 0 1em; width: 14%;}
 #sidebar .sidebar_board_guide {margin-bottom: 0.6em;}
 #sidebar .headline {padding: 0; width: 100%; border-bottom: 1px dimgrey solid; margin: 0;}
 #sidebar ul {position: relative; margin: 0;}
