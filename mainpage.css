@@ -1,8 +1,8 @@
-#container {max-width: 1050px; min-width: 825px;}
+#container {max-width: 1000px; min-width: 825px;}
 
-#topbar {background-color: azure; height: 1.6em; padding-top: 0.2em;}
-#topguide {float: left;}
-#topguide a:hover {color: #060; background-color: azure; text-decoration: underline;}
+#topbar {background-color: #F0E68C; height: 17px; padding-bottom: 1px; padding-left: 0.4em;}
+#topguide a {font-size: 12px;}
+#topguide a:hover {color: #060; text-decoration: underline;}
 
 #header {width: 100%; height: 70px; background-color: #090;}
 #headerContent {table-layout: fixed; width: 100%;}
@@ -10,74 +10,78 @@
 #headerRightContent {margin: auto auto;}
 #headerRightContent td {text-align: center;}
 #headerWelcome {font-size: 16.5px; font-weight: bold; font-family: "华文楷体"; padding-bottom: 0.2em; border-bottom: 1px wheat solid;}
-#headerLinkContent {font-size: 12px;}
+#headerLinkContent {display: block; line-height: 16px; font-size: 12px;}
 #loginHistoryNum {padding: 0 0.2em; color: gold;}
 .wusetu_logo_text {font-weight: bold;}
 
-#bigboard {clear: both; padding-bottom: 0.2em;}
-#bigboard_list li {padding-left: 0.2em;}
-.line_odd {background-color: azure; height: 1.8em;}
-.line_even {background-color: white; height: 1.8em;}
-.bigboard_item {padding-left: 0; padding-right: 2px;}
+#bigboard {clear: both; padding-bottom: 8px;}
+#bigboard_list li {border-bottom: 1px #666666 dotted;}
+.line_odd {background-color: #F3F7FB; height: 1.7em; padding-top: 0.1em;}
+.line_even {background-color: transparent; height: 1.7em; padding-top: 0.1em;}
+.bigboard_item {font-size: 12px; border-bottom: 0px dimgrey solid; padding-left: 0; padding-right: 2px;}
 .connector {padding-left: 2px; padding-right: 0;}
 
-#mbody {float: left; width: 99%; min-width: 698px; margin: 0 0 0 0; border-right: 1px solid white;}
+#mbody {float: left; min-width: 698px; margin: 0 0 0 8px; border-right: 1px solid white;}
 #mbodyContent {}
 
-#ht_bls {width: 100%;}
-#ht_bls th,#ht_bls td {width: 50%;}
-#htLabel, #blsLabel {width: 94%;}
-#blue:hover {color: #0617FA;}
-#orange:hover {color: orangered;}
+#topOfMbody {width: 100%;}
+#topOfMbody th,#topOfMbody td {}
+.column1 {width: 50%;}
+.column2 {width: 50%;}
+#ht_blsLabel, #top10Label {width: 96%;}
 
-#hottopics {width: 98%; height: 16em;}
-#htList {margin: 0 0.5em 0 0.5em;}
-/*#htList a:link {text-decoration: none;}*/
-#htList a:visited {color: purple;}
-#htList a:hover {border-bottom: 1px dotted green; background: #E8F0FF;}
+#wusetu_top10 {width: 96%; height: 281px;}
+.chineseNum {background-color: #370; color: white; border-right: 1px #030 solid; border-bottom: 1px #030 solid; font-size: 13px; font-weight: bold; padding: 1px 1px 0 2px; margin-right: 0.8em;}
+#wusetu_top10_list {margin-right: 0.5em; padding-left: 0;}
+#wusetu_top10_list li {height: 22px; overflow: hidden; margin: 0px 2px 6px 0.5em;}
+#wusetu_top10_list a {font-size: 14px; text-decoration: underline;}
+#wusetu_top10_list a:visited {color: purple;}
+#wusetu_top10_list a {color: #030;}
 
-#blesses {width: 98%; height: 16em;}
-#blsList {margin: 0 0.5em 0 0.5em;}
-/*#blsList a:link {text-decoration: none;}*/
-#blsList a:visited {color: purple;}
-#blsList a:hover {border-bottom: 1px dotted green; background: #FFC;}
+#hottopics, #blesses {width: 96%; height: 228px;}
+#htList, #blsList {margin-right: 0.5em; margin-left: 0.5em;}
+#htList .from {color: #222;}
+#htList li, #blsList li {height: 22px;}
+#htList a, #blsList a {text-decoration: underline; color: #030; font-size: 13px;}
+#htList a:visited, #blsList a:visited {color: purple;}
+#htList a:hover {background: #E8F0FF;}
+#blsList a:hover {background: #FFC;}
 
-#middleAds {clear: both; padding: 8px 0 4px 0; text-align: center;}
+#bbsers {background-image: url(images/subtitle_bgimg.bmp); width:96%; margin-top: 6px; border: 1px rgb(186,218,161) solid;}
+#bbsersContent {margin: 0 2px 2px 5px;}
+#bbsersContent ul {line-height: 17px;}
+#bbsersContent a {font-size: 12px; text-decoration: underline;}
+
+#middleAds {clear: both; padding: 0 0 4px 0; text-align: center;}
 #adflash1 {width: 468px; margin: 0 auto;}
 
-#quotation {width: 100%;}
-#qtLabel {width: 97%;}
-#quotation .subcontent {width: 99%;}
+#quotation {width: 98%;}
+#qtLabel {width: 100%;}
+#quotation .subcontent {width: 100%;}
 #announce {}
 #announce li {padding: 0.1em 0 0.1em 2em;}
 #announce a:link {color: maroon; text-decoration: none;}
 #annource a:visited {color: maroon; text-decoration: none;}
 #frombbser {}
 #frombbser td {padding-bottom: 0;}
-#frombbser ul {margin: 2px 16px 8px 16px; padding-left: 16px; line-height: 1.4em;}
+#frombbser ul {margin: 2px 0.8em 8px 16px; padding-left: 16px; line-height: 1.4em;}
 #frombbser li {padding-bottom: 0.2em; border-bottom: 1px #DDDDDD solid; margin-bottom: 4px;}
-#bbsers div {padding: 0.2em 0 0.2em 0; margin: 6px 0; border-top: 1px #CCCCCC solid; border-bottom: 1px #CCCCCC solid; border-right: none;}
-#bbsers ul {margin-top: 0; margin-bottom: 2px; padding-left: 16px;}
-#bbsers li {padding: 0 4px 0 4px;}
-#bbsers a:hover {color: white; background-color: #060;}
 
-#top10s {width: 100%;}
-#ttLabel, #btLabel {width: 94%;}
-#top10s .subcontent {border-bottom: none;}
-
-#wusetu_top10 {width: 98%;}
-#wusetu_top10_list {padding-left: 2.5em; margin: 0 0.5em 0 0.5em;}
-#wusetu_top10_list a:visited {color: purple;}
-#wusetu_top10_list a:hover {color: #060; border-bottom: 1px dotted green;}
-
-#bt_top10 {width: 98%;}
-#btList {margin: 0 0.5em 0 0.5em;}
-#btList li {height: 20px; overflow: hidden;}
-.bt_seeds {margin-right: 0.8em; font-size: 9px; color: blue;}
-.bt_torrent {font-size: 10px; margin-right: 0.8em;}
+#pt {width: 100%;}
+.column0 {width: 100%;}
+#ptLabel {width: 98%;}
+#ptContent {width: 98%;}
+#ptTable {width: 100%; border-collapse: collapse;}
+#ptTable thead {border-bottom: 1px #D0D0D0 solid;}
+.lastCol {border-right: none;}
+.nonLastCol {border-right: 1px #D0D0D0 solid;}
+#ptTable th, #ptTable td {text-align: center;}
+.bt_seeds {color: blue;}
+.bt_torrent {}
 .bt_torrent a:visited {color: purple;}
 .bt_torrent a:hover {color: #060; border-bottom: 1px dotted green;}
-.bt_size {margin-right: 0.8em; font-size: 9px; color: green;}
+.bt_size {color: green;}
+.bt_publisher {}
 
 #bottomAds {width: 100%; text-align: center; padding-top: 16px;}
 #bottomAds div {width: 468px; height: 60px; margin: 0 auto;}
@@ -97,20 +101,23 @@
 .list_inline {display: inline;}
 .list_inline li {display: inline;}
 .list_style_none {list-style-type: none; padding: 0; margin: 0;}
-.overflow_hidden li, .overflow_hidden td {overflow: hidden; height: 1.5em;}
+.hidden {display: none;}
+.overflow_hidden li, .overflow_hidden td {overflow: hidden; height: 18px;}
 .separator {padding-left: 2px; padding-right: -1px; color: #030;}
-.subtitle {float: left; text-align: left; border-bottom: 1px #060 solid; border-left: 6px #060 solid;}
-.subtitle a, .subtitle span {padding-right: 10px; border-right: 3px gold solid;}
-.subcontent {padding-left: 0; /*border-right: 1px #CCCCCC solid; border-bottom: 1px #CCCCCC solid;*/}
+.subtitle {background-image: url(images/subtitle_bgimg.bmp); height: 21px; margin-bottom: 0.2em; float: left; text-align: left; padding-bottom: 1px; border: 1px rgb(186,218,161) solid;}
+.subtitle a, .subtitle span {font-size: 14px; color: #2F3A30; padding-right: 10px; border-right: 3px gold solid;}
+.subcontent {border: 1px #D0D0D0 solid; border-top: none;}
+.subcontent ol, .subcontent ul, .subcontent table {margin-top: 3px;}
 .headline {font-size: 13px; font-weight: bold; letter-spacing: 1px; text-decoration: none; color: #060; line-height: 22px; padding-left: 6px;}
 .blessStar {margin-right: 0.4em; color: orangered;}
-.list {margin-right: 0.4em; color: #0617FA;}
+.list {color: #0617FA;}
 .htTopic {}
-.from {font-size: 10px; font-style: normal; margin-left: 4px; vertical-align: middle; white-space: nowrap;}
+.from {font-size: 12px; color: #666; vertical-align: middle; white-space: nowrap;}
+.author {padding-left: 8px; font-size: 12px; color: black;}
 .fromeditor {margin-left: 8px; margin-right: 8px; font-family: serif; font-size: 10px; font-weight: bold; color: #060;}
 .editorsay {color: #666666;}
 .noted {color: red;}
 td {vertical-align: top;}
 a {text-decoration: none;}
-body,div,table,td,ul,ol,a {font: 13px/20px "Lucida Sans Unicode",Arial,Verdana,sans-serif; color: black; text-align: left;}
-body,div,table,th,td,span {margin: 0; padding: 0;}
+body,div,table,td,ul,ol,a {font: 13px/20px "宋体",Arial,Verdana,sans-serif; color: black; text-align: left;}
+body,div,table,tr,th,td,span {margin: 0; padding: 0;}
