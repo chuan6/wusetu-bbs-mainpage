@@ -1,0 +1,109 @@
+#container {max-width: 1200px; min-width: 840px; margin: 0 auto; padding:0;}
+
+#topbar {background-color: azure; height: 1.6em; padding-top: 0.2em;}
+#topguide {float: left;}
+#topguide a:hover {color: #060; background-color: azure; text-decoration: underline;}
+
+#header {width: 100%; height: 70px; background-color: #090;}
+#headContent {}
+#adflash0 {width: 700px; height: 70px;}
+
+#bigboard {clear: both; margin-bottom: 0.2em;}
+#bigboard_list li {padding-left: 0.2em;}
+.line_odd {background-color: #CFC; height: 1.8em;}
+.line_even {background-color: white; height: 1.8em;}
+.bigboard_item {padding-left: 0; padding-right: 2px;}
+.connector {padding-left: 2px; padding-right: 0;}
+
+#mbody {float: left; width: 84%; min-width: 698px; margin: 0 0 0 0; border-right: 1px solid white;}
+#mbodyContent {}
+
+#ht_bls {width: 100%;}
+#ht_bls th,#ht_bls td {width: 50%;}
+#htLabel, #blsLabel {width: 98%;}
+#blue:hover {color: #0617FA;}
+#orange:hover {color: orangered;}
+
+#hottopics {width: 98%; height: 16em;}
+#htList {margin: 0 0.5em 0 0.5em;}
+/*#htList a:link {text-decoration: none;}*/
+#htList a:visited {color: purple;}
+#htList a:hover {border-bottom: 1px dotted green; background: #E8F0FF;}
+
+#blesses {width: 98%; height: 16em;}
+#blsList {margin: 0 0.5em 0 0.5em;}
+/*#blsList a:link {text-decoration: none;}*/
+#blsList a:visited {color: purple;}
+#blsList a:hover {border-bottom: 1px dotted green; background: #FFC;}
+
+#middleAds {clear: both; padding: 8px 0 4px 0; text-align: center;}
+#adflash1 {width: 468px; margin: 0 auto;}
+
+#quotation {width: 100%;}
+#qtLabel {width: 99%;}
+#quotation .subcontent {width: 99%;}
+#announce {}
+#announce li {padding: 0.1em 0 0.1em 2em;}
+#announce a:link {color: maroon; text-decoration: none;}
+#annource a:visited {color: maroon; text-decoration: none;}
+#frombbser {}
+#frombbser td {padding-bottom: 0;}
+#frombbser ul {margin: 2px 16px 8px 16px; padding-left: 16px; line-height: 1.4em;}
+#frombbser li {padding-bottom: 0.2em; border-bottom: 1px #DDDDDD solid; margin-bottom: 4px;}
+#bbsers div {padding: 0.2em 0 0.2em 0; margin: 6px 0; border-top: 1px #CCCCCC solid; border-bottom: 1px #CCCCCC solid; border-right: none;}
+#bbsers ul {margin-top: 0; margin-bottom: 2px; padding-left: 16px;}
+#bbsers li {padding: 0 4px 0 4px;}
+#bbsers a:hover {color: white; background-color: #060;}
+
+#top10s {width: 100%;}
+#ttLabel, #btLabel {width: 98%;}
+#top10s .subcontent {border-bottom: none;}
+
+#wusetu_top10 {width: 98%;}
+#wusetu_top10_list {padding-left: 2.5em; margin: 0 0.5em 0 0.5em;}
+#wusetu_top10_list a:visited {color: purple;}
+#wusetu_top10_list a:hover {color: #060; border-bottom: 1px dotted green;}
+
+#bt_top10 {width: 98%;}
+#btList {margin: 0 0.5em 0 0.5em;}
+#btList li {height: 20px; overflow: hidden;}
+.bt_seeds {margin-right: 0.8em; font-size: 9px; color: blue;}
+.bt_torrent {font-size: 10px; margin-right: 0.8em;}
+.bt_torrent a:visited {color: purple;}
+.bt_torrent a:hover {color: #060; border-bottom: 1px dotted green;}
+.bt_size {margin-right: 0.8em; font-size: 9px; color: green;}
+
+#bottomAds {width: 100%; text-align: center; padding-top: 16px;}
+#bottomAds div {width: 468px; height: 60px; margin: 0 auto;}
+#bottomAds img {border: none;}
+
+/*#sidebarContent {float: left; margin-left: 0;}*/
+#sidebar {float: left; position: relative; margin: 0 0 0 1em; width: 14%;}
+#sidebar .sidebar_board_guide {margin-bottom: 0.6em;}
+#sidebar .headline {padding: 0; width: 100%; border-bottom: 1px dimgrey solid; margin: 0;}
+#sidebar ul {position: relative; margin: 0;}
+#sidebar li {width: 100%; height: 20px; margin: 0;}
+#sidebar a {display: block; padding: 5px 0 3px 24%; letter-spacing: 1px; line-height: 1em; border-bottom: 1px orange dotted;}
+#sidebar a:visited {color: black;}
+#sidebar a:hover {color: #060; background: #FF9 url("images/nav_arrow_green.gif") no-repeat scroll 5% 0.6em;}
+
+.width_container {margin: 0; padding: 0 0 0 4px;}
+.list_inline {display: inline;}
+.list_inline li {display: inline;}
+.list_style_none {list-style-type: none; padding: 0; margin: 0;}
+.overflow_hidden li, .overflow_hidden td {overflow: hidden; height: 1.5em;}
+.separator {padding-left: 2px; padding-right: -1px; color: green;}
+.subtitle {float: left; text-align: left; background-color: #CFC; border-right: 1px #060 solid; border-bottom: 1px #060 solid;}
+.subcontent {padding-left: 0; border-right: 1px #CCCCCC solid; border-bottom: 1px #CCCCCC solid;}
+.headline {font-size: 13px; font-weight: bold; letter-spacing: 1px; text-decoration: none; color: #060; line-height: 22px; padding-left: 6px;}
+.blessStar {margin-right: 0.4em; color: orangered;}
+.list {margin-right: 0.4em; color: #0617FA;}
+.htTopic {}
+.from {font-size: 10px; font-style: normal; margin-left: 4px; vertical-align: middle; white-space: nowrap;}
+.fromeditor {margin-left: 8px; margin-right: 8px; font-family: serif; font-size: 10px; font-weight: bold; color: #060;}
+.editorsay {color: #666666;}
+.noted {color: red;}
+td {vertical-align: top;}
+a {text-decoration: none;}
+body,div,table,td,ul,ol,a {font: 12px/18px "Lucida Sans Unicode",Arial,Verdana,sans-serif; color: black; text-align: left;}
+body,div,table,th,td,span {margin: 0; padding: 0;}
