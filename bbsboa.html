@@ -3,11 +3,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>五色土――让你的生活更精彩。______情系乡土，胸怀社稷。______论坛、交流、资讯</title>
     <style type="text/css">
-     #container {max-width:1024px; min-width:861px; margin:0 auto; padding:0 3px 0 3px;}
+     #container {max-width:1024px; min-width:900px; margin:0 auto; padding:0 3px 0 3px;}
 
      #head-content {margin: 0 auto; background-color: white;}
      #adflash0 {width: 700px; height: 70px; margin: 0 auto;}
-     #topMenu {clear: both; margin-right: 0; margin-bottom: 8px; border-bottom: 1px darkgreen solid;}
+     #topMenu {clear: both; margin-right: 0; margin-bottom: 5px; border-bottom: 1px darkgreen solid;}
      #ulTopMenu {list-style-type: none; width: 694px; height: 15px; margin: 0 auto; padding-left: 4px; padding-bottom: 2px; border-right: 1px #690 solid; border-left: 1px #690 solid; background-color: white;}
      #ulTopMenu li {display: inline; font-size: 12px; white-space: nowrap;}
      #ulTopMenu a:link {text-decoration: none; color: olive;}
@@ -22,11 +22,18 @@
      #tableMenuBoard a:hover {border-bottom: 1px dotted green; color: green;}
      #tableMenuBoard a {width: 10%; }
 
-     #mbody {float: left; width: 78%; min-width: 700px; margin: 4px 0 0 1%; border-right: 1px solid #690;}
+     #mbody {float: left; width: 80%; min-width: 700px; margin: 4px 0 0 1%; border-right: 1px solid #690;}
      #mbodyContent {width: 99%; min-width: 700px;}
      #mbodyContent ul {list-style-type: none; padding-left: 4px;}
-     #sidebar {float: right; clear: right; width: 18%; min-width: 160px;}
+     #sidebar {float: right; clear: right; min-width: 160px;}
      #sidebarContent {float: left; margin-left: 0;}
+
+     #bigboard {margin: 0 auto;}
+     #bigboard_root_list {list-style-type: none; margin-bottom: 0;}
+     #bigboard_root_list ul {padding-left: 0; line-height: 2.4;}
+     #bigboard_root_list .headline {margin-right: 6px;}
+     #bigboard_root_list .inline_list {padding: 1px 4px; margin-right: 3px; background-color: #F0FFFF; border: 1px #CCCCCC solid;}
+     #bigboard_root_list .headline {display: inline; border: none; background-color: transparent;}
 
      #ht_bls {width: 100%;}
      #ht_bls thead {text-align: left;}
@@ -55,8 +62,10 @@
      #announce a:link {color: maroon; text-decoration: none;}
      #annource a:visited {color: maroon; text-decoration: none;}
      #frombbser {}
-     #frombbser ol {list-style-type: lower-greek; margin-top: 2px; margin-right: 2%; font-size: 13px;}
-     #frombbser li {padding-bottom: 2px; border-bottom: 1px #DDDDDD solid; margin-bottom: 3px;}
+     #frombbser td {padding-bottom: 0;}
+     #frombbser ol {list-style-type: lower-greek; margin: 2px 16px 0 0; font-size: 13px;}
+     #frombbser li {padding-bottom: 0; border-bottom: 1px #DDDDDD solid; margin-bottom: 4px;}
+     #bbsers td {border-top: 1px #CCCCCC solid; border-bottom: 1px #CCCCCC solid; border-right: none;}
      #bbsers ul {margin-top: 0; margin-bottom: 2px; padding-left: 16px;}
      #bbsers li {display: inline; list-style-type: none; padding: 0 4px 0 6px;}
      #bbsers a {text-decoration: none;}
@@ -87,6 +96,9 @@
      #sidebar a:link {color: #333333; text-decoration: none;}
      #sidebar a:visited {color: #333333; text-decoration: none;}
      #sidebar a:hover {color: }
+     .list_style_none {list-style-type: none;}
+     .inline_list {display: inline;}
+     .connector {}
      .separator {padding-left: 4px; padding-right: 1px; color: green;}
      .headline {font-size: 13px; font-weight: bold; text-decoration: none; color: #060; line-height: 22px; padding-left: 6px;}
      .blessStar {color: orangered;}
@@ -99,16 +111,11 @@
      thead th {text-align: left; background-color: #CFC; border-right: 1px #060 solid; border-bottom: 1px #060 solid;}
      tbody>tr>td { background-color: #F5F5F5; border-right: 1px #CCCCCC solid; border-bottom: 1px #CCCCCC solid;}
      body,div,table,td,ul,ol,a {font-size: 12px; line-height: 1.5; color: #333333;}
-     body,div {margin: 0; padding: 0;}
+     body,div,ul,ol,li {margin: 0; padding: 0;}
     </style>
   </head>
   <body>
     <div id="container">
-      <!-- simulate a 4px height shadow underneath the big board; maximize visibility of it -->
-      <!-- <div style="margin: 0 auto; clear: both; height: 0; width: 100%; border-bottom: 1px dimgrey solid;"></div>
-	   <div style="margin: 0 auto; clear: both; height: 0; width: 100%; border-bottom: 1px darkgrey solid;"></div>
-	   <div style="margin: 0 auto; clear: both; height: 0; width: 100%; border-bottom: 1px lightgrey solid;"></div>
-	   <div style="margin: 0 auto; clear: both; height: 0; width: 100%; border-bottom: 1px #F0FFF0 solid;"></div> -->
       <div id="content">
         <div id="head-content">
           <div id="adflash0">
@@ -143,67 +150,72 @@
             </ul>
           </div><!-- div: topMenu ends here. -->
         </div><!-- div: head-content ends here. -->
-
-        <table id="tableMenuBoard">
-          <thead>
-            <tr>
-              <th colspan="2">一
-                <th colspan="2">二
-                  <th colspan="2">三
-                    <th colspan="2">四
-                      <th colspan="2">五
-            </tr>
-          </thead>
-          <tbody>
-            <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Job">就业·招聘</a>
-              <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=SecondHand">二手市场</a>
-                <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=LostFound">寻物·招领</a>
-                  <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=ParttimeJob">兼职信息</a>
-                    <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=KaoYan">考研·保研</a>
-                      <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Agent">商业代理</a>
-                        <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=House">房屋租赁</a>
-                          <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=DayHouse">日租房</a>
-                            <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Gwyks">公务员考试</a>
-                              <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=AdvancedEdu">出国·留学</a>
-                                <tr>
-                                  <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=AddWater">灌水天堂</a>
-                                    <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Food">美食天地</a>
-                                      <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Gossip">八卦娱乐</a>
-                                        <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Picture">精彩贴图</a>
-                                          <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=NetResources">网络资源</a>
-                                            <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=S_PHOTO">个人影集</a>
-                                              <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=PPmm_pic">美女贴图</a>
-                                                <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Joke">笑口常开</a>
-                                                  <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Shopping">购物·消费</a>
-                                                    <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Movie">看电影</a>
-                                                      <tr>
-                                                        <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=WstExpress">五色土特快</a>
-                                                          <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Essay">心情随笔</a>
-                                                            <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=SecretGarden">秘密花园</a>
-                                                              <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Poems">诗词歌赋</a>
-                                                                <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=History">历史</a>
-                                                                  <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Agriforum">三农论坛</a>
-                                                                    <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=HerWords">她说她话</a>
-                                                                      <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=SYSOP">站长工作室</a>
-                                                                        <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=StoneStory">红楼梦</a>
-                                                                          <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Astrology">星语星愿</a>
-                                                                            <tr>
-                                                                              <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Basketball">篮球·姚明</a>
-                                                                                <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Single">单身一族</a>
-                                                                                  <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=CAU_KTV">卡拉OK</a>
-                                                                                    <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Comic">动漫天地</a>
-                                                                                      <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Graduate">研究生</a>
-                                                                                        <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=80ser">80后一代</a>
-                                                                                          <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Beauty">美丽物语</a>
-                                                                                            <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/boa?secstr=8F">天下足球</a>
-                                                                                              <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/boa?secstr=BC">老乡聚会</a>
-                                                                                                <td><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/boa?secstr=1E">农大社团</a>
-          </tbody>
-        </table><!-- table: tableMenuBoard ends here. -->
+        <div id="bigboard">
+          <ul id="bigboard_root_list">
+            <li>
+              <ul class="list_style_none">
+                <li class="headline">五色土·农大</li><span class="connector">-</span>
+                <li class="inline_list"><span class="list_content">五色土特快</span></li><span class="connector">-</span>
+                <li class="inline_list"><span class="list_content">站长工作室</span></li><span class="connector">-</span>
+                <li class="inline_list"><span class="list_content">bbs求助</span></li><span class="connector">-</span>
+                <li class="inline_list"><span class="list_content">三农论坛</span></li><span class="connector">-</span>
+                <li class="inline_list"><span class="list_content">院系风采</span></li><span class="connector">-</span>
+                <li class="inline_list"><span class="list_content">组织机构</span></li><span class="connector">-</span>
+                <li class="inline_list"><span class="list_content">老乡聚会</span></li><span class="connector">-</span>
+                <li class="inline_list"><span class="list_content">研究生之家</span></li><span class="connector">-</span>
+                <li class="inline_list"><span class="list_content">农大社团</span></li>
+              </ul>
+              <li>
+                <ul class="list_style_none">
+                  <li class="headline">职业·资讯</li><span class="connector">-</span>
+                  <li class="inline_list"><span class="list_content">就业·招聘</span></li><span class="connector">-</span>
+                  <li class="inline_list"><span class="list_content">考研·保研</span></li><span class="connector">-</span>
+                  <li class="inline_list"><span class="list_content">出国·留学</span></li><span class="connector">-</span>
+                  <li class="inline_list"><span class="list_content">公务员考试</span></li><span class="connector">-</span>
+                  <li class="inline_list"><span class="list_content">兼职信息</span></li><span class="connector">-</span>
+                  <li class="inline_list"><span class="list_content">二手市场</span></li><span class="connector">-</span>
+                  <li class="inline_list"><span class="list_content">商业代理</span></li><span class="connector">-</span>
+                  <li class="inline_list"><span class="list_content">寻物招领</span></li><span class="connector">-</span>
+                  <li class="inline_list"><span class="list_content">交通信息</span></li><span class="connector">-</span>
+                  <li class="inline_list"><span class="list_content">房屋租赁</span></li><span class="connector">-</span>
+                  <li class="inline_list"><span class="list_content">日租房</span></li>
+                </ul>
+                <li>
+                  <ul class="list_style_none">
+                    <li class="headline">校园精彩</li><span class="connector">-</span>
+                    <li class="inline_list"><span class="list_content">灌水天堂</span></li><span class="connector">-</span>
+                    <li class="inline_list"><span class="list_content">星语星愿</span></li><span class="connector">-</span>
+                    <li class="inline_list"><span class="list_content">爱美食</span></li><span class="connector">-</span>
+                    <li class="inline_list"><span class="list_content">爱电影</span></li><span class="connector">-</span>
+                    <li class="inline_list"><span class="list_content">爱ｋ歌</span></li><span class="connector">-</span>
+                    <li class="inline_list"><span class="list_content">爱血拼</span></li><span class="connector">-</span>
+                    <li class="inline_list"><span class="list_content">开心果</span></li><span class="connector">-</span>
+                    <li class="inline_list"><span class="list_content">动漫天地</span></li><span class="connector">-</span>
+                    <li class="inline_list"><span class="list_content">美女贴图</span></li><span class="connector">-</span>
+                    <li class="inline_list"><span class="list_content">精彩贴图</span></li><span class="connector">-</span>
+                    <li class="inline_list"><span class="list_content">电脑门诊</span></li><span class="connector">-</span>
+                    <li class="inline_list"><span class="list_content">网络资源</span></li>
+                  </ul>
+                  <li>
+                    <ul class="list_style_none">
+                      <li class="headline">成长记录</li><span class="connector">-</span>
+                      <li class="inline_list"><span class="list_content">８０后</span></li><span class="connector">-</span>
+                      <li class="inline_list"><span class="list_content">单身族</span></li><span class="connector">-</span>
+                      <li class="inline_list"><span class="list_content">９０后</span></li><span class="connector">-</span>
+                      <li class="inline_list"><span class="list_content">秘密花园</span></li><span class="connector">-</span>
+                      <li class="inline_list"><span class="list_content">心情随笔</span></li><span class="connector">-</span>
+                      <li class="inline_list"><span class="list_content">惜缘小屋</span></li><span class="connector">-</span>
+                      <li class="inline_list"><span class="list_content">她说她话</span></li><span class="connector">-</span>
+                      <li class="inline_list"><span class="list_content">个人影集</span></li>
+                    </ul>
+          </ul>
+        </div><!-- div: bigboard ends here. -->
+        <hr style="width: 99%; margin: 4px 0 6px 0;">
 
         <div id="mbody">
           <div id="mbodyContent">
-            <table id="ht_bls" cellspacing="6px">
+
+            <table id="ht_bls" cellspacing="4px">
               <thead><tr>
                 <th><a id="blue" class="headline" href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/bbsshownav?a1=class&amp;a2=all">五彩话题</a></th>
                 <th><a id="orange" class="headline" href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Bless">今日祝福</a></th>
@@ -248,7 +260,7 @@
               </div>
             </div>
 
-            <table id="quotation" cellspacing="6px">
+            <table id="quotation" cellspacing="4px">
               <thead><tr><th><a class="headline" href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/con?B=363&amp;F=M.1206976934.A">五色土语录</a></th></tr></thead>
               <tbody id="announce">
                 <tr><td><span style="font-weight: bold; padding-left: 4px;">小喇叭</span><img src="images/speaker.jpg"><a href="http://qdgy.qiaodan.com.cn/" target="_blank">敬请关注: 为我校“篮”精灵 团队投上您宝贵的一票</a><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/con?B=8&amp;F=M.1262247986.A&amp;N=9539&amp;T=0">绿色上网倡议书</a><a href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=BBSHelp" target="_self">激活不成功？</a></td></tr>
@@ -286,7 +298,7 @@
               </tbody>
             </table>
 
-            <table id="top10s" cellspacing="6px">
+            <table id="top10s" cellspacing="4px">
               <thead><tr>
                 <th><a class="headline" href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/bbsshownav?a1=class&amp;a2=all">今日十大</a></th>
                 <th><a class="headline" href="http://wusetu.cn/WSTAQAACUKARPEEVJEOOVDWHIMKHWRTEJSECIQZZ_A/home?B=Bless">五色土虫虫BT十大</a></th>
