@@ -24,7 +24,7 @@
 #mbody {float: left; min-width: 698px; margin: 0 0 1em 0.5em; border-right: 1px solid white;}
 #mbodyContent {}
 
-#topOfMbody {width: 100%;}
+#topOfMbody {width: 100%; margin-bottom: 8px;}
 #topOfMbody th,#topOfMbody td {}
 .column1 {width: 50%;}
 .column2 {width: 50%;}
@@ -55,7 +55,7 @@
 #middleAds {clear: both; padding: 0 0 4px 0; text-align: center;}
 #adflash1 {width: 468px; margin: 0 auto;}
 
-#quotation {width: 98%;}
+#quotation {width: 98%; margin-bottom: 8px;}
 #qtLabel {width: 100%;}
 #quotation .subcontent {width: 100%;}
 #announce {}

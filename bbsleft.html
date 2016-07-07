@@ -1,24 +1,12 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
-
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
     <link href="leftframe.css" rel="stylesheet" type="text/css">
     <script src="bbsleft_files/func.js"></script>
-    <style type="text/css">.s {display:none}</style>
     <script src="bbsleft_files/bbsleft.htm"></script>
   </head>
-
   <body onmouseover="doMouseOver()" onmouseenter="doMouseOver()" onmouseout="doMouseOut()">
-    <script src="bbsleft_files/function.js"></script>
-    <script language="JavaScript">
-     function bluring(){
-	 if(event.srcElement.tagName=="A"||event.srcElement.tagName=="IMG")
-	     document.body.focus();
-     }
-     document.onfocusin=bluring;
-    </script>
-
     <div id="container">
 
       <div id="wusetuLogo"><img id="wusetuLogoImg" src="bbsleft_files/logo-left-top.gif"/></div>
@@ -181,6 +169,13 @@
 	 document.getElementsByTagName(span)[x].style.color="white";
      }
     </script>
-
+    <script src="bbsleft_files/function.js"></script>
+    <script language="JavaScript">
+     function bluring(){
+	 if(event.srcElement.tagName=="A"||event.srcElement.tagName=="IMG")
+	     document.body.focus();
+     }
+     document.onfocusin=bluring;
+    </script>
   </body>
 </html>
